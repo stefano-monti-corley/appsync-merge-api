@@ -1,0 +1,10 @@
+type Ticket {
+  id: ID!
+}
+
+
+
+
+type Query {
+  singleTicket(id: ID!): Ticket
+}
